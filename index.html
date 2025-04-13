@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparativa de Sistemas ERP</title>
+    <link rel="stylesheet" href="./styles.css">
+ </head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sistemas de Planificación de Recursos Empresariales (ERP)</h1>
+            <p>Análisis y comparativa de las principales soluciones del mercado</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="introduction">
+            <h2>Introducción a los Sistemas ERP</h2>
+            <div class="slider-container">
+                <div class="slides">
+                    <div class="slide" id="slide1">
+                        <h3>¿Qué es un ERP?</h3>
+                        <p>ERP es el acrónimo de Enterprise Resource Planning (Planificación de Recursos Empresariales). Se trata de un sistema de gestión integral basado en software que integra y automatiza la mayoría de los procesos de negocio de una organización. Estos sistemas permiten a las empresas unificar información, optimizar la gestión de recursos y facilitar la toma de decisiones estratégicas.</p>
+                    </div>
+                    <div class="slide" id="slide2">
+                        <h3>¿Para qué sirve un ERP?</h3>
+                        <p>Un sistema ERP ofrece múltiples beneficios para las organizaciones modernas:</p>
+                        <ul>
+                            <li><strong>Centralización de la información:</strong> Reúne datos de diferentes departamentos en una base de datos compartida.</li>
+                            <li><strong>Automatización de procesos:</strong> Permite la automatización de tareas repetitivas mejorando la eficiencia.</li>
+                            <li><strong>Toma de decisiones informadas:</strong> Acceso a informes y análisis en tiempo real.</li>
+                            <li><strong>Mejora de la comunicación:</strong> Fortalece la colaboración entre departamentos.</li>
+                            <li><strong>Aumento de la competitividad:</strong> Optimiza procesos y reduce costes.</li>
+                        </ul>
+                    </div>
+                    <div class="slide" id="slide3">
+                        <h3>Funciones principales de un ERP</h3>
+                        <p>Las funciones más importantes que realiza un ERP incluyen:</p>
+                        <ul>
+                            <li><strong>Gestión financiera:</strong> Contabilidad, cuentas a pagar y cobrar, tesorería.</li>
+                            <li><strong>Gestión de recursos humanos:</strong> Nóminas, reclutamiento, formación.</li>
+                            <li><strong>Gestión de la producción:</strong> Planificación, control de inventarios, logística.</li>
+                            <li><strong>Gestión de ventas:</strong> Pedidos, facturación, CRM, análisis de ventas.</li>
+                            <li><strong>Gestión de proyectos:</strong> Seguimiento, planificación y ejecución de proyectos.</li>
+                        </ul>
+                    </div>
+                    <div class="slide" id="slide4">
+                        <h3>Tipos de módulos y su clasificación</h3>
+                        <p>Los módulos de un ERP se clasifican en:</p>
+                        <p><strong>Módulos centrales:</strong> Finanzas, RRHH, Ventas, Compras, Producción.</p>
+                        <p><strong>Módulos complementarios:</strong> Business Intelligence, Gestión de Proyectos, E-commerce, Gestión de activos.</p>
+                        <p><strong>Módulos sectoriales:</strong> Soluciones específicas para sectores como salud, manufactura, retail, etc.</p>
+                    </div>
+                    <div class="slide" id="slide5">
+                        <h3>Integración de módulos y sus beneficios</h3>
+                        <p>La integración consiste en conectar los diferentes componentes del ERP para que compartan la misma base de datos. Beneficios:</p>
+                        <ul>
+                            <li><strong>Consistencia de datos:</strong> Reduce errores y duplicidad.</li>
+                            <li><strong>Eficiencia operativa:</strong> Actualización automática de la información.</li>
+                            <li><strong>Mejores decisiones:</strong> Datos precisos y en tiempo real.</li>
+                            <li><strong>Reducción de costes:</strong> Optimización de procesos y tiempos.</li>
+                            <li><strong>Mayor flexibilidad:</strong> Facilita añadir o modificar módulos.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="slider-dots">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+                
+                <div class="slider-nav">
+                    <button onclick="prevSlide()">Anterior</button>
+                    <button onclick="nextSlide()">Siguiente</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="comparison">
+            <h2>Estudio Comparativo de Productos ERP en el Mercado</h2>
+            <p>Los sistemas ERP son esenciales para la integración de procesos de negocio, y en el mercado existen muchas soluciones orientadas a distintos tipos de empresas. A continuación, analizamos tres de las soluciones más populares: SAP, Microsoft Dynamics NAV/Dynamics 365 Business Central y Odoo.</p>
+
+            <div class="tab-container">
+                <div class="tab">
+                    <button class="tablinks active" onclick="openTab(event, 'overview')">Visión General</button>
+                    <button class="tablinks" onclick="openTab(event, 'sap')">SAP</button>
+                    <button class="tablinks" onclick="openTab(event, 'dynamics')">Microsoft Dynamics</button>
+                    <button class="tablinks" onclick="openTab(event, 'odoo')">Odoo</button>
+                </div>
+
+                <div id="overview" class="tabcontent visible">
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <h3>SAP</h3>
+                            <p><strong>Ideal para:</strong> Grandes empresas y corporaciones</p>
+                            <p><strong>Puntos fuertes:</strong> Amplia funcionalidad, alta escalabilidad, integración avanzada</p>
+                            <p><strong>Consideraciones:</strong> Altos costos de implementación y mantenimiento, curva de aprendizaje pronunciada</p>
+                        </div>
+                        <div class="product-card">
+                            <h3>Microsoft Dynamics</h3>
+                            <p><strong>Ideal para:</strong> Pequeñas y medianas empresas</p>
+                            <p><strong>Puntos fuertes:</strong> Interfaz amigable, integración con ecosistema Microsoft, personalización moderada</p>
+                            <p><strong>Consideraciones:</strong> Costos moderados, buena relación funcionalidad/precio</p>
+                        </div>
+                        <div class="product-card">
+                            <h3>Odoo</h3>
+                            <p><strong>Ideal para:</strong> Startups, pymes y empresas en crecimiento</p>
+                            <p><strong>Puntos fuertes:</strong> Alta modularidad, código abierto, bajo costo inicial</p>
+                            <p><strong>Consideraciones:</strong> Puede requerir más personalización, comunidad activa de desarrollo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="sap" class="tabcontent">
+                    <h3>SAP</h3>
+                    <div class="feature-box">
+                        <h4>Características y funcionalidades</h4>
+                        <ul>
+                            <li><strong>Amplia funcionalidad:</strong> Ofrece un extenso conjunto de módulos que incluyen finanzas, logística, producción, gestión de recursos humanos, ventas, marketing, CRM y BI.</li>
+                            <li><strong>Escalabilidad:</strong> Ideal para empresas grandes y multinacionales, con soporte para operaciones globales y procesos complejos.</li>
+                            <li><strong>Integración avanzada:</strong> Permite conectar múltiples módulos y sistemas externos, garantizando la consistencia de datos en tiempo real.</li>
+                            <li><strong>Innovación tecnológica:</strong> Se actualiza continuamente e integra tecnologías emergentes como inteligencia artificial, machine learning y análisis predictivo.</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-box">
+                        <h4>Requisitos técnicos</h4>
+                        <ul>
+                            <li><strong>Hardware e infraestructura:</strong> Las implementaciones on-premise requieren hardware de alto rendimiento y servidores dedicados.</li>
+                            <li><strong>Opciones en la nube:</strong> SAP S/4HANA Cloud reduce la necesidad de infraestructura local.</li>
+                            <li><strong>Personalización:</strong> Requiere equipos especializados o consultores para su implementación y mantenimiento.</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-box">
+                        <h4>Orientación al mercado</h4>
+                        <ul>
+                            <li><strong>Sector:</strong> Principalmente para grandes corporaciones y multinacionales.</li>
+                            <li><strong>Procesos complejos:</strong> Adecuado para empresas con alta complejidad operativa y necesidades avanzadas de integración.</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-box">
+                        <h4>Tipos de licencias y precios</h4>
+                        <ul>
+                            <li><strong>Licenciamiento:</strong> Modelo de licenciamiento con inversiones iniciales elevadas y opciones de suscripción.</li>
+                            <li><strong>Costos:</strong> Altos, tanto en adquisición de licencias como en consultoría e implementación.</li>
+                            <li><strong>Flexibilidad:</strong> Ofrece modalidades on-premise, cloud o híbridas, pero requiere inversiones significativas, siendo más adecuado para grandes organizaciones.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="dynamics" class="tabcontent">
+                    <h3>Microsoft Dynamics NAV / Dynamics 365 Business Central</h3>
+                    <div class="feature-box">
+                        <h4>Características y funcionalidades</h4>
+                        <ul>
+                            <li><strong>Funcionalidad integral:</strong> Cubre módulos esenciales (finanzas, ventas, compras, inventario, gestión de proyectos y recursos humanos).</li>
+                            <li><strong>Interfaz amigable:</strong> Integración nativa con el ecosistema Microsoft (Office 365, Power BI, etc.), facilitando la adopción.</li>
+                            <li><strong>Personalización:</strong> Alta capacidad de configuración para adaptarse a las necesidades de pymes y medianas empresas.</li>
+                            <li><strong>Actualizaciones frecuentes:</strong> El entorno cloud permite implementar mejoras continuas de forma sencilla.</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-box">
+                        <h4>Requisitos técnicos</h4>
+                        <ul>
+                            <li><strong>Infraestructura moderada:</strong> Los requerimientos son menos exigentes que los de SAP; la versión cloud elimina la necesidad de infraestructura local.</li>
+                            <li><strong>Compatibilidad:</strong> Funciona de forma nativa en el ecosistema Windows y se integra bien con otras aplicaciones de Microsoft.</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-box">
+                        <h4>Orientación al mercado</h4>
+                        <ul>
+                            <li><strong>Sector:</strong> Dirigido principalmente a pequeñas y medianas empresas (pymes).</li>
+                            <li><strong>Ecosistema Microsoft:</strong> Ideal para organizaciones ya familiarizadas y que usan las herramientas de Microsoft.</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-box">
+                        <h4>Tipos de licencias y precios</h4>
+                        <ul>
+                            <li><strong>Licenciamiento:</strong> Basado en suscripción mensual, lo que permite una inversión inicial moderada.</li>
+                            <li><strong>Costos:</strong> Comparativamente inferiores a SAP, favoreciendo su uso en organizaciones medianas.</li>
+                            <li><strong>Flexibilidad:</strong> Ofrece versiones on-premise y cloud, adaptándose a distintas necesidades y presupuestos.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="odoo" class="tabcontent">
+                    <h3>Odoo</h3>
+                    <div class="feature-box">
+                        <h4>Características y funcionalidades</h4>
+                        <ul>
+                            <li><strong>Modularidad:</strong> Muy modular, permitiendo instalar solo los módulos necesarios (ventas, contabilidad, CRM, RRHH, inventario, etc.) y personalizarlos en función de las necesidades.</li>
+                            <li><strong>Código abierto:</strong> La versión Community es gratuita, lo que aporta flexibilidad y posibilidades de personalización a través del desarrollo.</li>
+                            <li><strong>Integración sencilla:</strong> Todos los módulos se integran en una única base de datos, asegurando la consistencia de la información.</li>
+                            <li><strong>Innovación constante:</strong> Comunidad activa que contribuye con nuevos módulos y mejoras de manera continua.</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-box">
+                        <h4>Requisitos técnicos</h4>
+                        <ul>
+                            <li><strong>Infraestructura ligera:</strong> Requisitos de hardware modestos en comparación con SAP y Microsoft Dynamics.</li>
+                            <li><strong>Opciones de implementación:</strong> Se puede instalar on-premise o usar en la nube, proporcionando flexibilidad en costos y recursos.</li>
+                            <li><strong>Desarrollo personalizado:</strong> La naturaleza de código abierto permite adaptar y ampliar funcionalidades sin incurrir en grandes costos.</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-box">
+                        <h4>Orientación al mercado</h4>
+                        <ul>
+                            <li><strong>Sector:</strong> Ideal para pymes y empresas en crecimiento, aunque también es adoptado por algunas medianas empresas.</li>
+                            <li><strong>Adopción global:</strong> Atractivo para organizaciones que valoran la flexibilidad y la capacidad de personalización, aprovechando la comunidad de código abierto.</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-box">
+                        <h4>Tipos de licencias y precios</h4>
+                        <ul>
+                            <li><strong>Modelo freemium:</strong> La versión Community es gratuita, lo que permite comenzar sin costes de licencia (aunque se requiere inversión en soporte y desarrollo).</li>
+                            <li><strong>Versión Enterprise:</strong> Basada en suscripción, con soporte oficial y módulos adicionales, con costos generalmente menores que SAP o Dynamics.</li>
+                            <li><strong>Costos modulares:</strong> Permite añadir módulos de forma incremental, controlando la inversión inicial.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conclusions">
+            <h2>Conclusiones</h2>
+            <div class="conclusion">
+                <p>La elección del ERP adecuado depende del tamaño y necesidades específicas de cada organización:</p>
+                
+                <ul>
+                    <li><strong>SAP:</strong> Ideal para grandes corporaciones con procesos complejos. Ofrece amplia funcionalidad pero requiere inversión elevada.</li>
+                    
+                    <li><strong>Microsoft Dynamics:</strong> Recomendado para pymes y medianas empresas, especialmente las que ya utilizan el ecosistema Microsoft. Equilibra funcionalidad y costos.</li>
+                    
+                    <li><strong>Odoo:</strong> Excelente para empresas en crecimiento gracias a su flexibilidad, modularidad y bajo coste inicial.</li>
+                </ul>
+                
+                <p>La integración de módulos es esencial en cualquier ERP, ya que garantiza la consistencia de datos, aumenta la eficiencia operativa, facilita la toma de decisiones y optimiza los procesos de negocio, reduciendo costos operativos.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 - Comparativa de Sistemas ERP</p>
+    </footer>
+
+    <script>
+
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].className = tabcontent[i].className.replace(" visible", "");
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).className += " visible";
+            evt.currentTarget.className += " active";
+        }
+        
+        let slideIndex = 1;
+        showSlide(slideIndex);
+        
+        function prevSlide() {
+            showSlide(slideIndex -= 1);
+        }
+        
+        function nextSlide() {
+            showSlide(slideIndex += 1);
+        }
+        
+        function currentSlide(n) {
+            showSlide(slideIndex = n);
+        }
+        
+        function showSlide(n) {
+            let i;
+            let slides = document.getElementsByClassName("slide");
+            let dots = document.getElementsByClassName("dot");
+            
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            
+            // Calcular desplazamiento
+            let displacement = (slideIndex - 1) * -100 + "%";
+            document.querySelector('.slides').style.transform = "translateX(" + displacement + ")";
+            
+            // Actualizar dots
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+</body>
+</html>
